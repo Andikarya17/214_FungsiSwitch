@@ -24,7 +24,9 @@ int perkalian(int a, int b)
 {
     return a * b;
 }
- int pembagian(int a, int b)
+float pembagian(float a, float b)
  {
     return a / b;
  }
+
+ 
