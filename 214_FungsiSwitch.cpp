@@ -45,6 +45,33 @@ int main ()
         cout << "=====================" << endl;
         cout << "Masukan menu pilihan : ";
         cin >> pilihan;
+
+        switch (pilihan)
+        {
+            case 1:
+                inputData();
+                cout << "Hasil Penjumlahan = " << penjumlahan(bilangan1, bilangan2) << endl;
+                break;
+            case 2:
+                inputData();
+                cout << "Hasil Pengurangan = " << pengurangan(bilangan1, bilangan2) << endl;
+                break;
+            case 3:
+                inputData();
+                cout << "Hasil Perkalian = " << perkalian(bilangan1, bilangan2) << endl;
+                break;
+            case 4:
+                inputData();
+                cout << "Hasil Pembagian = " << pembagian(bilangan1, bilangan2) << endl;
+                break;
+            case 5:
+                break;
+            
+            default:
+                cout << "Pilihan tidak ada" << endl;
+                break;
+
+        }
     } 
     
 }
